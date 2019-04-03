@@ -1,0 +1,23 @@
+# CFL
+0.4
+# Flux reconstruction scheme (0-VL, 1-AUSM)
+0
+# Time integration (0-Euler explicit, 1-RK4)
+0
+# Boundary Condition (1-Periodic ,-1-Wall)
+1
+# rho U T x<=0 (LEFT CONDITIONS)
+#1 0 500
+1 574 250
+#2.5 0 500
+# rho U T x>0 (RIGHT CONDITIONS)
+#2.5 0 200
+2 287 412
+#1 0 250
+# Number of intervals
+40
+# Number of iterations
+200
+# Write frequency
+20
+# SAVE THE FILE!!!!!!
